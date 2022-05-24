@@ -1,9 +1,76 @@
 /* 
 Color: 
 Letras: #FFFFFF;
+Letras footer: #1F2023; #3B3C43;
+Footer: #3B3C43;
 Boton y busqueda: #303134;
 Fondo: #1F2023;
 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     background-color: #1F2023;
+}
+footer {
+    background-color: #171717;
+    color: #1F2023;
+}
+.letrasfooter {
+    color: #bdc1c6;
+    font-size: 14px;
+    text-decoration: none;
+}
+.vacio {
+    background-color: #1F2023;
+    width: 100%;
+    height: 220px;
+}
+.diseñoheader {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 13px
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 99%;
+    height: 48px;
+    padding: 10px 6px 10px 6px;
+    position: relative;   
+}
+.centrarImagenMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92px;
+}
+.centrarMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 58px;
+    padding: 6px;
+}
+.centroLogo {
+
+    padding: 10px;
+}
+.mexico {
+    display: block;
+    justify-content:flex-start;
+    align-items: center;
+    width: 99%;
+    padding: 15px 30px 15px 30px;
+    margin-bottom: 1px;
+}
+.info {
+    d
 }
