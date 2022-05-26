@@ -54,10 +54,43 @@ header {
 .centrarMain {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    position: relative;
     width: 99%;
     height: 58px;
     padding: 6px;
+}
+.iconosearch span{
+    position: absolute;
+    
+    top: 25px;
+    left: 375px;
+}
+.tamañoicono {
+    font-size: 15px;
+    color: #606164;
+
+}
+input {
+    outline: none;
+    padding: 5px;
+}
+
+.buscar {
+    width: 560px;
+    height: 44px;
+    padding: 5px 8px 0px 14px;
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    border: 1px solid #606164;
+}
+.buscar:hover {
+    background-color: #303134;
+    
+}
+.lineaabajo:hover {
+    text-decoration-line: underline;
 }
 .boton {
     background-color: #303134;
